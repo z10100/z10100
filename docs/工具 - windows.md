@@ -257,26 +257,6 @@ scoop install eza
 Set-Alias -Name ls -Value eza
 ```
 
-## lsd
-
-> 更推荐 `eza`，支持 `tree`
-
-- [lsd](https://github.com/lsd-rs/lsd)
-
-同 `ls` 命令，但是做了更多的美化。
-
-```bash
-scoop install lsd
-```
-
-```bash
-code $PROFILE
-```
-
-```psl
-Set-Alias -Name ls -Value lsd
-```
-
 ## gsudo
 
 - [gsudo](https://github.com/gerardog/gsudo)
@@ -284,6 +264,10 @@ Set-Alias -Name ls -Value lsd
 ```bash
 scoop install gsudo
 ```
+
+## rustup
+
+- [安装 Rust](https://rust-lang.org/zh-CN/tools/install/)
 
 ## AutoHotKey
 
